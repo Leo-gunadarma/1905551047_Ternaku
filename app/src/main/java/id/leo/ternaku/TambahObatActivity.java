@@ -88,10 +88,10 @@ public class TambahObatActivity extends AppCompatActivity {
         }
         AlertDialog.Builder infoMsg = new AlertDialog.Builder(TambahObatActivity.this);
         infoMsg.setTitle("Apakah Anda Yakin?");
-        infoMsg.setMessage("Apakah anda yakin ingin menginputkan data sebagai berikut?\n\n"+"" +
-                "Nama Obat: " + namaObat.getText().toString() +"\n"+
-                "Jumlah Obat: "+ jumlahObat.getText().toString() + "\n"+
-                "Deskripsi Obat: "+ deskripsiObat.getText().toString() + "\n");
+        infoMsg.setMessage("Nama Obat yang anda inputkan adalah "+namaObat.getText().toString() +
+                " dengan jumlah obat sebanyak " + jumlahObat.getText().toString() +
+                " Dimana obat ini berfungsi sebagai : "+ deskripsiObat.getText().toString()+
+                "\nApakah anda yakin ingin memperbarui data? \n");
         infoMsg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -142,10 +142,10 @@ public class TambahObatActivity extends AppCompatActivity {
         }
         AlertDialog.Builder infoMsg = new AlertDialog.Builder(TambahObatActivity.this);
         infoMsg.setTitle("Apakah Anda Yakin?");
-        infoMsg.setMessage("Apakah anda yakin ingin menginputkan data sebagai berikut?\n\n"+"" +
-                "Nama Obat: " + namaObat.getText().toString() +"\n"+
-                "Jumlah Obat: "+ jumlahObat.getText().toString() + "\n"+
-                "Deskripsi Obat: "+ deskripsiObat.getText().toString() + "\n");
+        infoMsg.setMessage("Nama Obat yang anda inputkan adalah "+namaObat.getText().toString() +
+                " dengan jumlah obat sebanyak " + jumlahObat.getText().toString() +
+                " Dimana obat ini berfungsi sebagai : "+ deskripsiObat.getText().toString()+
+                "\nApakah anda yakin ingin menginputkan data tersebut? \n");
         infoMsg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

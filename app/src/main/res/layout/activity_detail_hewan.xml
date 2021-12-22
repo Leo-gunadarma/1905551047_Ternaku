@@ -31,7 +31,7 @@
                 android:gravity="center"
                 android:text="@string/detail_data_hewan"
                 android:textColor="@color/tema_aplikasi"
-                android:textSize="20sp"
+                android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +45,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/nama_hewan"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDetailHewan" />
 
@@ -56,6 +57,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/ras_hewan"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewDetailNamaHewan"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDetailNamaHewan" />
 
@@ -67,6 +69,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/jenis_hewan"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewDetailRasHewan"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDetailRasHewan" />
 
@@ -78,6 +81,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/jumlah_hewan"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewDetailJenisHewan"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDetailJenisHewan" />
 
@@ -89,6 +93,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/jadwal_makan"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewDetailJumlahHewan"
                 app:layout_constraintTop_toBottomOf="@+id/textViewDetailJumlahHewan" />
 
@@ -100,6 +105,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/tes"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toEndOf="@+id/textViewDetailNamaHewan"
                 app:layout_constraintTop_toTopOf="@+id/textViewDetailNamaHewan" />
 
@@ -110,6 +116,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/tes"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewResultNamaHewan"
                 app:layout_constraintTop_toTopOf="@+id/textViewDetailRasHewan" />
 
@@ -120,6 +127,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/tes"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewResultRasHewan"
                 app:layout_constraintTop_toTopOf="@+id/textViewDetailJenisHewan" />
 
@@ -130,6 +138,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/tes"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewResultJenisHewan"
                 app:layout_constraintTop_toTopOf="@+id/textViewDetailJumlahHewan" />
 
@@ -140,6 +149,7 @@
                 android:fontFamily="@font/amaranth"
                 android:text="@string/tes"
                 android:textColor="@color/tema_aplikasi3"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/textViewResultJumlahHewan"
                 app:layout_constraintTop_toTopOf="@+id/textViewDetailJadwalMakan" />
 

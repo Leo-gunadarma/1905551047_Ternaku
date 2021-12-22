@@ -127,12 +127,12 @@ public class TambahHewanActivity extends AppCompatActivity {
         }
         AlertDialog.Builder infoMsg = new AlertDialog.Builder(TambahHewanActivity.this);
         infoMsg.setTitle("Apakah Anda Yakin?");
-        infoMsg.setMessage("Apakah anda yakin ingin memperbarui data sebagai berikut?\n\n"+
-                "Nama Hewan: "+ namaHewan.getText().toString()+ "\n"+
-                "Ras Hewan: " + rasHewan.getText().toString() + "\n"+
-                "Jenis Hewan: " + jenisHewan.getSelectedItem().toString() + "\n"+
-                "Jumlah Hewan: " + jumlahHewan.getText().toString() + "\n" +
-                "Jadwal Makan: "+ selected.getText().toString() + "\n");
+        infoMsg.setMessage("Hewan yang anda inputkan adalah "+ namaHewan.getText().toString()+
+                " dengan ras hewan adalah "+ rasHewan.getText().toString() +
+                " yang dimana berjumlah sebanyak "+jumlahHewan.getText().toString() +
+                ". Hewan tersebut berjenis " + jenisHewan.getSelectedItem().toString() +
+                " dengan jadwal makan hewan tersebut "+ selected.getText().toString() +
+                "\nApakah anda yakin ingin memperbarui data? \n");
         infoMsg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -195,12 +195,12 @@ public class TambahHewanActivity extends AppCompatActivity {
         }
         AlertDialog.Builder infoMsg = new AlertDialog.Builder(TambahHewanActivity.this);
         infoMsg.setTitle("Apakah Anda Yakin?");
-        infoMsg.setMessage("Apakah anda yakin ingin menginputkan data sebagai berikut?\n\n"+
-                "Nama Hewan: "+ namaHewan.getText().toString()+ "\n"+
-                "Ras Hewan: " + rasHewan.getText().toString() + "\n"+
-                "Jenis Hewan: " + jenisHewan.getSelectedItem().toString() + "\n"+
-                "Jumlah Hewan: " + jumlahHewan.getText().toString() + "\n" +
-                "Jadwal Makan: "+ selected.getText().toString() + "\n");
+        infoMsg.setMessage("Hewan yang anda inputkan adalah "+ namaHewan.getText().toString()+
+                " dengan ras hewan adalah "+ rasHewan.getText().toString() +
+                " yang dimana berjumlah sebanyak "+jumlahHewan.getText().toString() +
+                ". Hewan tersebut berjenis " + jenisHewan.getSelectedItem().toString() +
+                " dengan jadwal makan hewan tersebut "+ selected.getText().toString() +
+                "\nApakah anda yakin ingin menginputkan data tersebut? \n");
         infoMsg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

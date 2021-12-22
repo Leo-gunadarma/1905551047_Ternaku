@@ -43,4 +43,12 @@ public class PengaturanProfilActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent= new Intent(PengaturanProfilActivity.this , MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }

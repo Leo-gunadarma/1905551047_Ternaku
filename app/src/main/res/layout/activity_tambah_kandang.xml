@@ -49,9 +49,11 @@
                 android:id="@+id/editTextNamaKandang"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:hint="@string/hint_nama_kandang"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:background="@drawable/input_box"
                 android:ems="10"
+                android:hint="@string/hint_nama_kandang"
                 android:inputType="textPersonName"
                 android:paddingStart="10dp" />
 
@@ -76,9 +78,11 @@
                 android:id="@+id/editTextLokasiKandang"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:hint="@string/hint_lokasi_kandang"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:background="@drawable/input_box"
                 android:ems="10"
+                android:hint="@string/hint_lokasi_kandang"
                 android:inputType="textPersonName"
                 android:paddingStart="10dp" />
 
@@ -127,6 +131,8 @@
                 android:id="@+id/editTextKapasitasKandang"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:background="@drawable/input_box"
                 android:ems="10"
                 android:hint="@string/hint_kapasitas_hewan"

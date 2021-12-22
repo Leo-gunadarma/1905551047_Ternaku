@@ -109,11 +109,11 @@ public class TambahKandangActivity extends AppCompatActivity {
 
         AlertDialog.Builder infoMsg = new AlertDialog.Builder(TambahKandangActivity.this);
         infoMsg.setTitle("Apakah Anda Yakin?");
-        infoMsg.setMessage("Apakah anda yakin ingin mmemperbarui data sebagai berikut?\n\n"+"" +
-                "Nama Kandang: " + namaKandang.getText().toString() +"\n"+
-                "Lokasi Kandang: " + lokasiKandang.getText().toString() +"\n"+
-                "Luas Kandang: " + luasKandangValue + " Meter Persegi \n"+
-                "Kapasitas Kandang: "+ kapasitasKandang.getText().toString()+ "\n");
+        infoMsg.setMessage("Nama kandang yang anda inputkan adalah "+ namaKandang.getText().toString() +
+                " dimana lokasi kandang tersebut berada di " + lokasiKandang.getText().toString() +
+                " dengan luas kandang "+ luasKandangValue + " Meter Persegi."+
+                " Dimana kandang tersebut mampu menampung hewan sebanyak "+ kapasitasKandang.getText().toString()+
+                "\nApakah anda yakin ingin memperbarui data? \n");
         infoMsg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -165,11 +165,11 @@ public class TambahKandangActivity extends AppCompatActivity {
 
         AlertDialog.Builder infoMsg = new AlertDialog.Builder(TambahKandangActivity.this);
         infoMsg.setTitle("Apakah Anda Yakin?");
-        infoMsg.setMessage("Apakah anda yakin ingin menginputkan data sebagai berikut?\n\n"+"" +
-                "Nama Kandang: " + namaKandang.getText().toString() +"\n"+
-                "Lokasi Kandang: " + lokasiKandang.getText().toString() +"\n"+
-                "Luas Kandang: " + luasKandangValue + " Meter Persegi \n"+
-                "Kapasitas Kandang: "+ kapasitasKandang.getText().toString()+ "\n");
+        infoMsg.setMessage("Nama kandang yang anda inputkan adalah "+ namaKandang.getText().toString() +
+                " dimana lokasi kandang tersebut berada di " + lokasiKandang.getText().toString() +
+                " dengan luas kandang "+ luasKandangValue + " Meter Persegi."+
+                " Dimana kandang tersebut mampu menampung hewan sebanyak "+ kapasitasKandang.getText().toString()+
+                "\nApakah anda yakin ingin menginputkan data tersebut? \n");
         infoMsg.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
