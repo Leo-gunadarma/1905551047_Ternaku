@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewKelolaHewan"
+                        android:layout_width="100dp"
+                        android:layout_height="101dp"
+
+                        android:background="@drawable/border_kotak"
+                        android:padding="1dp"
+                        app:srcCompat="@drawable/banyak_hewan" />
+
+                    <TextView
+                        android:id="@+id/textViewMenuKelolaHewan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:text="@string/menu_kelola_hewan"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewKelolaKandang"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/border_kotak"
+                        android:padding="1dp"
+                        app:srcCompat="@drawable/kandang" />
+
+                    <TextView
+                        android:id="@+id/textViewMenuKelolaKandang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:text="@string/menu_kelola_kandang"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewMenuKelolaObat"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/border_kotak"
+                        android:padding="1dp"
+                        app:srcCompat="@drawable/medickit" />
+
+                    <TextView
+                        android:id="@+id/textViewMenuKelolaObat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:text="@string/menu_kelola_obat"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageViewMenuPengaturanProfil"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/border_kotak"
+                        android:padding="1dp"
+                        app:srcCompat="@drawable/pengaturan_profil" />
+
+                    <TextView
+                        android:id="@+id/textViewPengaturanProfil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/amaranth"
+                        android:text="@string/menu_pengaturan_profil"
+                        android:textColor="#000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
